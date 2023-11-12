@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IRANSansX-Black";
+  src: url(./src/assets/fonts/ttf/IRANSansX-Black.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-Bold";
+  src: url(./assets/fonts/ttf/IRANSansX-Bold.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-DemiBold";
+  src: url(./assets/fonts/ttf/IRANSansX-DemiBold.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-ExtraBold";
+  src: url(./assets/fonts/ttf/IRANSansX-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-Light";
+  src: url(./assets/fonts/ttf/IRANSansX-Light.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-Medium";
+  src: url(./assets/fonts/ttf/IRANSansX-Medium.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-Regular";
+  src: url(./assets/fonts/ttf/IRANSansX-Regular.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-Thin";
+  src: url(./assets/fonts/ttf/IRANSansX-Thin.ttf);
+}
+
+@font-face {
+  font-family: "IRANSansX-UltraLight";
+  src: url(./assets/fonts/ttf/IRANSansX-UltraLight.ttf);
+}
+
+body {
+  direction: rtl;
+}
+
+.dirr {
+  direction: ltr;
+}
+
+.hovercarting{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.hovercarting:hover {
+  transform: scale(1.1); /* بزرگتر شدن کارت */
+  z-index: 1; /* قرار گرفتن کارت بالاتر از کارت‌های دیگر */
+}
